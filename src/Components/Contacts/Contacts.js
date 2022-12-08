@@ -3,6 +3,7 @@ import React from 'react';
 const Contacts = () => {
     return (
         <div>
+            <h1 className='text-5xl font-bold text-center my-10 text-[#6440FB]'>Contact <span className='text-[#00FF84]'>Me</span></h1>
            <section className="py-6 container mx-auto dark:bg-base-400 dark:text-black border border-2 shadow-xl ">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 md:px-6 my-auto">

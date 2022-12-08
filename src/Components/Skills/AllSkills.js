@@ -10,7 +10,7 @@ const AllSkills = () => {
         .then(data =>setSkills(data))
     },[])
     return (
-    <div className='container mx-auto '>
+    <div className='container mx-auto' id='skill'>
         <h1 className='text-5xl font-bold text-center my-10 text-[#6440FB]'>My <span className='text-[#00FF84]'>Skills</span></h1>
         <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 '>
             {

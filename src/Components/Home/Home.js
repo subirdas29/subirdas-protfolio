@@ -1,4 +1,6 @@
 import React from 'react';
+import About from '../../About/About';
+import Footer from '../../Footer/Footer';
 import Banner from '../Banner/Banner';
 import Contacts from '../Contacts/Contacts';
 import Headers from '../Headers/Headers';
@@ -10,9 +12,11 @@ const Home = () => {
         <div>
             <Headers></Headers>
             <Banner></Banner>
+            <About></About>
             <AllSkills></AllSkills>
             <AllProjects></AllProjects>
             <Contacts></Contacts>
+            <Footer></Footer>
         </div>
     );
 };

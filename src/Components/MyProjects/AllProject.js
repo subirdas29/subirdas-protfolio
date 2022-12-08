@@ -5,7 +5,7 @@ const AllProject = ({project}) => {
     return (
         <div className="bg-gray-100 shadow-md border border-gray-200 rounded-lg mb-5">
         
-            <img className="rounded p-3 h-64" src={image} alt=""/>
+            <img className="rounded p-3 h-64 w-full" src={image} alt=""/>
         
         <div className="p-5">
                 <h5 className="text-gray-800 font-semibold text-2xl tracking-tight mb-2">{name}</h5>
