@@ -14,6 +14,7 @@ const Headers = () => {
       <li><a>Skills</a></li>
           <li><a>Project</a></li>
           <li><a>About Me</a></li>
+          <li><a>Contact</a></li>
       </ul>
     </div>
     <a className="btn btn-ghost normal-case text-3xl font-bold">Subir Das</a>
@@ -24,6 +25,7 @@ const Headers = () => {
     <li><a>Skills</a></li>
           <li><a>Project</a></li>
           <li><a>About Me</a></li>
+          <li><a>Contact</a></li>
     </ul>
   </div>
   <div className="navbar-end">

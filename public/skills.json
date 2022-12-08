@@ -1,0 +1,64 @@
+[
+    {
+      "id": "1",
+      "name": "HTML",
+      "logo":"https://i.ibb.co/R71RPtT/html.png"
+    },
+    
+    {
+      "id": "2",
+      "name": "CSS",
+      "logo":"https://i.ibb.co/S6qnPPv/css-3.png"
+    },
+    {
+      "id": "3",
+      "name": "BOOTSTRAP",
+      "logo":"https://i.ibb.co/xghJZBD/bootstrap.png"
+    },
+    {
+      "id": "4",
+      "name": "TAILWIND",
+      "logo":"https://i.ibb.co/rkZHYCY/Tailwind-CSS-Logo-svg.png"
+    },
+    {
+      "id": "5",
+      "name": "JAVASCRIPT",
+      "logo":"https://i.ibb.co/PsytJyY/img-js.png"
+    },
+    {
+      "id": "6",
+      "name": "REACT JS",
+      "logo":"https://i.ibb.co/brqdqnM/science.png"
+    },
+    {
+      "id": "7",
+      "name": "NODEJS",
+      "logo":"https://i.ibb.co/H4fM4Tq/nodejs-removebg-preview.png"
+    },
+    {
+      "id": "8",
+      "name": "EXPRESSJS",
+      "logo":"https://i.ibb.co/kDSyjwS/express.png"
+    },
+    {
+      "id": "9",
+      "name": "MONGODB",
+      "logo":"https://i.ibb.co/Xz8KhXt/mongodb.png"
+    },
+    {
+      "id": "10",
+      "name": "VERCEL",
+      "logo":"https://i.ibb.co/cc700QM/images-removebg-preview.png"
+    },
+    {
+      "id": "11",
+      "name": "NETLIFY",
+      "logo":"https://i.ibb.co/X2GKmyy/netlify-logo-png-transparent.png"
+    },
+    {
+      "id": "12",
+      "name": "Firebase",
+      "logo":"https://i.ibb.co/kM3MhR8/firebse.png"
+    }
+    
+]

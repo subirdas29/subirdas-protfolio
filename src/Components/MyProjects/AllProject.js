@@ -3,7 +3,7 @@ import React from 'react';
 const AllProject = ({project}) => {
     const {name, description, image, live_link, github_client, github_server} = project;
     return (
-        <div className="bg-gray-100 shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">
+        <div className="bg-gray-100 shadow-md border border-gray-200 rounded-lg mb-5">
         
             <img className="rounded p-3 h-64" src={image} alt=""/>
         
