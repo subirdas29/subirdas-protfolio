@@ -1,9 +1,14 @@
 .navbar
 {
     background: transparent;
-    height: 80px;
+    height:80px;
     position: sticky;
     top:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:1.2rem;
+    z-index: 999;
 }
 
 .navbar.active{

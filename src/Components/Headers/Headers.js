@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+import '../Headers/Headers.css'
 
 const Headers = () => {
+  const [navbar,setNavbar] =useState(false)
+  const changeBackground =()=>
+  {
+    if(window.scrollY >= 80)
+    {
+      setNavbar(true);
+    }
+    else{
+      setNavbar(false);
+    }
+  }
+  window.addEventListener('scroll',changeBackground);
     return (
         <div>
-            <div className="navbar justify-between bg-[#2B3340] text-white">
+            <div className={navbar? 'navbar active': 'navbar'}>
   <div>
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,7 +33,7 @@ const Headers = () => {
     <a className="btn btn-ghost normal-case text-3xl font-semibold">Subir Das</a>
   </div>
   <div className="navbar-center hidden lg:flex lg:justify-end">
-    <ul className="menu menu-horizontal p-0 ">
+    <ul className="menu flex-wrap flex-row p-0 ">
     <li><a>Home</a></li>
     <li><a>Skills</a></li>
           <li><a>Projects</a></li>
