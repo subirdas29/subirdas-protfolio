@@ -3,7 +3,7 @@ import React from 'react';
 const Headers = () => {
     return (
         <div>
-            <div className="navbar justify-between bg-[#2B3340] text-white fixed">
+            <div className="navbar justify-between bg-[#2B3340] text-white">
   <div>
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">

@@ -3,8 +3,8 @@ import React from 'react';
 const Contacts = () => {
     return (
         <div>
-            <h1 className='text-5xl font-bold text-center my-10 text-[#6440FB]'>Contact <span className='text-[#00FF84]'>Me</span></h1>
-           <section className="py-6 container mx-auto dark:bg-base-400 dark:text-black border border-2 shadow-xl ">
+            <h1 className='text-5xl font-bold text-center my-10 '>Contact Me</h1>
+           <section className="py-6 container mx-auto dark:bg-base-400 dark:text-black border border-2 shadow-xl bg-[#F2F5FB]">
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 md:px-6 my-auto">
 			<h1 className="text-4xl font-bold">Get in touch</h1>
@@ -44,9 +44,9 @@ const Contacts = () => {
 				<span className="mb-1">Message</span>
 				<textarea rows="3" className="border border-2 shadow-md block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-base-200 px-4 py-2"></textarea>
 			</label>
-			<button type="button" className=" px-5 py-4 w-32 mx-auto bg-[#6440FB] hover:bg-[#00FF84] hover:text-black rounded text-white">Submit</button>
+			<button type="button" className=" px-5 py-4 w-32 mx-auto bg-[#FCC858] hover:bg-[#6440FB]  rounded text-black hover:text-white">Submit</button>
 		</form>
-	</div>
+	</div> 
 </section>
         </div>
     );

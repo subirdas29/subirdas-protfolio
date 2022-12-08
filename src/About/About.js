@@ -2,9 +2,11 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='my-24 text-black container mx-auto'>
-            <h1 className='text-5xl font-bold text-center my-10 text-[#6440FB]'>About <span className='text-[#00FF84]'>Me</span></h1>
-           <div className="p-6 sm:p-12 shadow-lg dark:text-black border">
+        <div className='my-24 text-black container mx-auto ' >
+            <h1 className='text-5xl font-bold text-center my-10 '>About Me</h1>
+            
+
+           <div className="p-6 sm:p-12 shadow-lg dark:text-black border bg-[#F2F5FB]">
 	<div className="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
 		<img src="https://i.ibb.co/9wf5748/108365991.jpg" alt="" className="self-center flex-shrink-0 w-24 h-24 border rounded-full md:justify-self-start dark:bg-gray-500 dark:border-gray-700" />
 		<div className="flex flex-col">
