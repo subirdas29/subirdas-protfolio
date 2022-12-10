@@ -1,12 +1,13 @@
-import './App.css';
-
-import Home from './Components/Home/Home';
+import { RouterProvider,} from 'react-router-dom';
+import { router } from './Router/Router';
 
 function App() {
   return (
     <div className=''>
-      <Home></Home>
+        
+   <RouterProvider router={router}></RouterProvider>
     </div>
+    
   );
 }
 

@@ -31,20 +31,21 @@ const Contacts = () => {
 				</p>
 			</div>
 		</div>
-		<form novalidate="" className="my-auto flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
+		<form  action="https://getform.io/f/48fa7a83-04ca-4f21-95d9-46aab0a09264" method="POST" encType='multipart/form-data' 
+		className="my-auto flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
 			<label className="block">
 				<span className="mb-1">Full name</span>
-				<input type="text" placeholder="Name" className=" border border-2 shadow-md block w-full px-4 py-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-base-200" />
+				<input type="text" placeholder="Name" name='name' className=" border border-2 shadow-md block w-full px-4 py-2 rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-base-200" />
 			</label>
 			<label className="block">
 				<span className="mb-1">Email address</span>
-				<input type="email" placeholder="Email" className="border border-2 shadow-md block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2 focus:ring-violet-400 dark:bg-base-200" />
+				<input type="email" placeholder="Email" name='email' className="border border-2 shadow-md block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 px-4 py-2 focus:ring-violet-400 dark:bg-base-200" />
 			</label>
 			<label className="block">
 				<span className="mb-1">Message</span>
-				<textarea rows="3" className="border border-2 shadow-md block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-base-200 px-4 py-2"></textarea>
+				<textarea rows="3" name='message' className="border border-2 shadow-md block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400 dark:bg-base-200 px-4 py-2"></textarea>
 			</label>
-			<button type="button" className=" px-5 py-4 w-32 mx-auto bg-[#FCC858] hover:bg-[#6440FB]  rounded text-black hover:text-white">Submit</button>
+			<button type="submit" className=" px-5 py-4 w-32 mx-auto bg-[#FCC858] hover:bg-[#6440FB]  rounded text-black hover:text-white">Submit</button>
 		</form>
 	</div> 
 </section>
