@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const AllProject = ({project}) => {
-    const {name, description, image, live_link, github_client, github_server} = project;
+const AllProject = ({project,details}) => {
+    const {name, description, image, live_link, github_client, github_server,id} = project;
     return (
         <div className="bg-gray-100 shadow-md border border-gray-200 rounded-lg mb-5">
         
@@ -21,6 +22,10 @@ const AllProject = ({project}) => {
             <a className="text-white bg-black focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center" href={github_server} target="_blanck">
                 Github Server
             </a>
+            
+            </div>
+            <div className='flex justify-center mt-6'>
+            <button className='px-12 py-4 rounded-lg bg-[#FCC858] hover:bg-[#6440FB] text-black hover:text-white'><Link to={id}>Details</Link></button>
             </div>
         </div>
     </div>

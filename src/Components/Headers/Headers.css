@@ -2,7 +2,7 @@
 {
     background: transparent;
     height:80px;
-    position: sticky;
+    position:sticky;
     top:0;
     display:flex;
     justify-content: space-between;
@@ -11,6 +11,7 @@
     z-index: 999;
 }
 
-.navbar.active{
-    background:linear-gradient(90deg,rgb(66,2,194) 0%,rgb(0,78,194)100%);
+.active{
+    background:red;
+    /* linear-gradient(90deg,rgb(66,2,194) 0%,rgb(0,78,194)100%); */
 }
