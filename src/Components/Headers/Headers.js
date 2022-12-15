@@ -34,9 +34,9 @@ const Headers = () => {
           <li><a href='#contact'>Contact</a></li>
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-3xl font-semibold text-white">Portfolio</a>
+    <a className="btn btn-ghost normal-case text-3xl font-semibold text-black">Portfolio</a>
   </div>
-  <div className="navbar-center hidden lg:flex lg:justify-end text-white">
+  <div className="navbar-center hidden lg:flex lg:justify-end text-black">
     <ul className="menu flex-wrap flex-row p-0">
     <li><a href='/'>Home</a></li>
           <li> <a href='#skills'>Skills</a></li>
