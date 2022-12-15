@@ -8,9 +8,9 @@
       "github_client": "https://github.com/subirdas29/reread-client",
       "github_server": "https://github.com/subirdas29/reread-server",
      
-      "admin_img":"https://i.ibb.co/PNpXySt/admin-panel.png",
-      "buyer_img":"https://i.ibb.co/tDmNmH2/seller-panel.png",
-      "seller_img":"https://i.ibb.co/1RcGgSk/BUYER.png",
+      "img1":"https://i.ibb.co/PNpXySt/admin-panel.png",
+      "img2":"https://i.ibb.co/tDmNmH2/seller-panel.png",
+      "img3":"https://i.ibb.co/1RcGgSk/BUYER.png",
       "details":"This website is Resell book Selling site...This website is created for Sell the used books with Resell price...There have admin,buyer and seller pannel...Seller can sell used books and buyer can buy this book...Also Admin can control them..."
     },
     {
@@ -22,8 +22,9 @@
       "github_client": "https://github.com/subirdas29/travel-zone-client",
       "github_server": "https://github.com/subirdas29/travel-zone-server",
      
-      "all_category":"https://i.ibb.co/Ldr0N6j/ALL-CATEGORY.png",
-      "my_review":"https://i.ibb.co/74JHSmT/Screenshot-3.png",
+      "img1":"https://i.ibb.co/Ldr0N6j/ALL-CATEGORY.png",
+      "img2":"https://i.ibb.co/74JHSmT/Screenshot-3.png",
+      "img3":"https://i.ibb.co/P6LtkDN/Screenshot-2.png",
       "details":"My website is a Travel Agency website.Six Tourist Country are added... I will added many.Beautiful Countries in the website.There are secure authentication system by firebase. Google and Email this two system are added for secure authentication.There are also many types blogs.. Which is helps to know about many things.There are also a checkout page...Which is helps you to Get a premium member.You can give your review here.You can also delete and edit your review."
     }, 
     {
@@ -35,8 +36,9 @@
       "github_client": "https://github.com/subirdas29/eduskill-client",
       "github_server": "https://github.com/subirdas29/eduskill-server",
       
-      "courses_img":"https://i.ibb.co/xsrzh37/courses.png",
-      "course":"https://i.ibb.co/SBHsSQH/coursed.png",
+      "img1":"https://i.ibb.co/xsrzh37/courses.png",
+      "img2":"https://i.ibb.co/SBHsSQH/coursed.png",
+      "img3":"https://i.ibb.co/WDPMc55/Screenshot-6.png",
       "details":"My website is a learning website.Six Courses are added... I will added many types courses in the website.Everybody can download the course pdf file individually.There are secure authentication system by firebase. Google,GitHub and Email this three system are added for secure authentication.There are also many types blogs.. Which is helps to know about many things.There are also a checkout page...Which is helps you to Get a premium member."
     } 
 ]

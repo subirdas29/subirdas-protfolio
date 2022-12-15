@@ -25,7 +25,7 @@ const AllProject = ({project,details}) => {
             
             </div>
             <div className='flex justify-center mt-6'>
-            <button className='px-12 py-4 rounded-lg bg-[#FCC858] hover:bg-[#6440FB] text-black hover:text-white'><Link to={id}>Details</Link></button>
+            <Link to={`/projectdetails/${id}`}><button className='px-12 py-4 rounded-lg bg-[#FCC858] hover:bg-[#6440FB] text-black hover:text-white'>Details</button></Link>
             </div>
         </div>
     </div>
