@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../assets/Subir Das (MainResume).pdf'
+import pdf from '../../assets/Resume(Subir Das).pdf'
 
 const Banner = () => {
     return (

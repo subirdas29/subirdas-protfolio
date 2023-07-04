@@ -24,9 +24,9 @@ const AllProject = ({project,details}) => {
             </a>
             
             </div>
-            <div className='flex justify-center mt-6'>
+            {/* <div className='flex justify-center mt-6'>
             <Link to={`/projectdetails/${id}`}><button className='px-12 py-4 rounded-lg bg-[#FCC858] hover:bg-[#6440FB] text-black hover:text-white'>Details</button></Link>
-            </div>
+            </div> */}
         </div>
     </div>
     );
