@@ -12,7 +12,7 @@ const AllSkills = () => {
     return (
     <div className='container mx-auto my-36' id='skills'>
         <h1 className='text-5xl font-bold text-center my-10 '>My Skills</h1>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 '>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-16 gap-10'>
             {
                 skills.map(skill=><AllSkill key={skill.id} skill={skill}></AllSkill>)
             }
