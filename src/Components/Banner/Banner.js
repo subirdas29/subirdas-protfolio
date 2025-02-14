@@ -11,7 +11,14 @@ const Banner = () => {
 <p className='text-white text-3xl mt-10 mb-8'>Web Developer</p>
 <div>
 
-<a type='button' href='https://drive.google.com/file/d/10DAPtcukiSPsSho4SuW8JwEDHv6f794e/view?usp=drive_link' target="_blank" download className='px-5 py-4 bg-[#FCC858] hover:bg-[#6440FB] text-black hover:text-white rounded'>Download Resume</a>
+<a
+  href="/Resume.pdf"
+  download="Subir_Das_Resume.pdf"
+  className="px-5 py-4 bg-[#FCC858] hover:bg-[#6440FB] text-black hover:text-white rounded"
+>
+  Download Resume
+</a>
+
 </div>
 </div>
 <div className='w-1/2 mt-6 mx-auto'>

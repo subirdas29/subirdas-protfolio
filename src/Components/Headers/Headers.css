@@ -1,7 +1,7 @@
 .navbar
 {
     background: transparent;
-    height:80px;
+    height:60px;
     position:sticky;
     top:0;
     display:flex;
@@ -9,9 +9,9 @@
     align-items: center;
     font-size:1.2rem;
     z-index: 999;
+   
 }
 
-.active{
-    background:red;
-    /* linear-gradient(90deg,rgb(66,2,194) 0%,rgb(0,78,194)100%); */
+.active {
+    background: #FCC858;
 }
